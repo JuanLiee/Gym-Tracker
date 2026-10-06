@@ -1,0 +1,37 @@
+name: gym_tracker
+description: Gym Tracker using Flutter & Firebase
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Firebase
+  firebase_core: ^4.12.1
+  firebase_auth: ^6.5.2
+  cloud_firestore: ^6.2.1
+
+  # State Management
+  provider: ^6.1.5
+
+  # Utilities
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/foods.json
+
